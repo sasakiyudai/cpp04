@@ -17,8 +17,8 @@ class AWeapon
 		virtual void attack() const;
 	protected:
 		std::string name;
-		int damagePoints;
 		int ap;
+		int damagePoints;
 };
 
 #endif
