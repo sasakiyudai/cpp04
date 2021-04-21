@@ -22,7 +22,11 @@ Squad::~Squad()
 
 Squad &Squad::operator=(Squad const &other)
 {
-	delete[] units;
+	for (int i = 0; i < this->unitsLen; i++)
+	{
+		delete units[i];
+	}
+	delete units;
 	units = NULL;
 	this->unitsLen = 0;
 	for (int i = 0; i < other.getCount(); i++)
