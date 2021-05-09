@@ -16,7 +16,7 @@ class AWeapon
 		std::string const &getName() const;
 		int getDamagePoints() const;
 		int getAp() const;
-		virtual void attack() const;
+		virtual void attack() const = 0;
 	protected:
 		std::string name;
 		int ap;

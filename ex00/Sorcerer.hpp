@@ -6,7 +6,7 @@
 
 class Sorcerer
 {
-	protected:
+	private:
 		Sorcerer();
 	public:
 		Sorcerer(std::string name, std::string title);

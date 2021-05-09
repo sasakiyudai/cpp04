@@ -3,7 +3,7 @@
 
 AWeapon::AWeapon()
 {
-	
+
 }
 
 AWeapon::AWeapon(std::string const & name, int apcost, int damage):name(name),ap(apcost),damagePoints(damage)
@@ -42,9 +42,4 @@ int AWeapon::getDamagePoints() const
 int AWeapon::getAp() const
 {
 	return (this->ap);
-}
-
-void AWeapon::attack() const
-{
-	std::cout << "(certain sounds)" << std::endl;
 }
