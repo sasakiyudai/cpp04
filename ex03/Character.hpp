@@ -7,6 +7,8 @@
 class Character: public ICharacter
 {
 	private:
+		Character();
+	private:
 		std::string name;
 		AMateria *materials[4];
 		int materialsLen;

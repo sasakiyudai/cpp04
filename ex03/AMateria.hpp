@@ -8,6 +8,8 @@ class AMateria;
 class AMateria
 {
 	protected:
+		AMateria();
+	protected:
 		std::string type;
 		unsigned int _xp;
 	public:
