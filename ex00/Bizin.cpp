@@ -1,6 +1,11 @@
 #include "Bizin.hpp"
 #include <iostream>
 
+Bizin::Bizin():Victim()
+{
+
+}
+
 Bizin::Bizin(std::string name):Victim(name)
 {
 	std::cout << "I'm not beautiful." << std::endl;

@@ -6,6 +6,8 @@
 
 class Sorcerer
 {
+	protected:
+		Sorcerer();
 	public:
 		Sorcerer(std::string name, std::string title);
 		Sorcerer(Sorcerer const &other);

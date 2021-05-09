@@ -6,6 +6,8 @@
 
 class Victim
 {
+	protected:
+		Victim();
 	public:
 		Victim(std::string name);
 		Victim(Victim const &other);

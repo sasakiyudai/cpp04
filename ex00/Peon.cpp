@@ -1,6 +1,11 @@
 #include "Peon.hpp"
 #include <iostream>
 
+Peon::Peon():Victim()
+{
+
+}
+
 Peon::Peon(std::string name):Victim(name)
 {
 	std::cout << "Zog zog." << std::endl;

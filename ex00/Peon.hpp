@@ -7,6 +7,8 @@
 
 class Peon: public Victim
 {
+	protected:
+		Peon();
 	public:
 		Peon(std::string name);
 		Peon(Peon const &other);

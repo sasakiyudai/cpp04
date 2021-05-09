@@ -7,6 +7,8 @@
 
 class Bizin: public Victim
 {
+	private:
+		Bizin();
 	public:
 		Bizin(std::string name);
 		Bizin(Bizin const &other);
