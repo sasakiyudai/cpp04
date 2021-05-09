@@ -9,6 +9,8 @@
 class Character
 {
 	private:
+		Character();
+	private:
 		std::string name;
 		int ap;
 		AWeapon *weapon;

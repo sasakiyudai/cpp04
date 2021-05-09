@@ -6,6 +6,8 @@
 class Enemy
 {
 	protected:
+		Enemy();
+	protected:
 		int hp;
 		std::string type;
 	public:

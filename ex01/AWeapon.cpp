@@ -1,6 +1,11 @@
 #include "AWeapon.hpp"
 #include <iostream>
 
+AWeapon::AWeapon()
+{
+	
+}
+
 AWeapon::AWeapon(std::string const & name, int apcost, int damage):name(name),ap(apcost),damagePoints(damage)
 {
 

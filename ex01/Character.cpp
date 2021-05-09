@@ -1,6 +1,11 @@
 #include "Character.hpp"
 #include <iostream>
 
+Character::Character()
+{
+	
+}
+
 Character::Character(std::string const & name):name(name),ap(40),weapon(NULL)
 {
 

@@ -5,6 +5,8 @@
 
 class AWeapon
 {
+	protected:
+		AWeapon();
 	public:
 		AWeapon(std::string const & name, int apcost, int damage);
 		AWeapon(AWeapon const &other);

@@ -1,5 +1,10 @@
 #include "Enemy.hpp"
 
+Enemy::Enemy()
+{
+	
+}
+
 Enemy::Enemy(int hp, std::string const & type)
 {
 	this->type = type;
